@@ -19,10 +19,6 @@ public class ATMTest {
 		atmWBalance = new ATM(50.00);
 	}
 
-	@After
-	public void tearDown() throws Exception {
-	}
-
 	@Test
 	public void testDeposit() {
 		assertTrue(atmDefConstruct.getBalance() == 0);
